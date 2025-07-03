@@ -61,7 +61,7 @@ export default function ContactSection() {
             <textarea
               name="message"
               placeholder="Your Message"
-              rows="5"
+              rows={5}
               required
               value={formData.message}
               onChange={handleChange}
